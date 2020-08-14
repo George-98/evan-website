@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var GMAIL_USER = 'l.george221998@gmail.com';
-const GMAIL_PASS = 'Arsenal456*'
+var GMAIL_USER = '';
+const GMAIL_PASS = ''
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false })

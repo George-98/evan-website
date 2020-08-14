@@ -1,0 +1,60 @@
+.active {
+  background-color: #4CAF50;
+}
+
+.headerBkg {
+  background-color: #333;
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.navbar{
+  img {
+      object-fit: cover; 
+      height: 60px
+  }
+  li{
+    height: 24px;
+    font-size: 16px;
+  }
+}
+
+hr{
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    background-color: white;
+}
+
+@media (min-width: 1400px){
+  .navbar{
+    .container {
+        max-width: 2500px; 
+    }
+  }
+}
+
+@media (max-width: 991px){
+  .navbar{
+    img {
+        height: 100px; 
+    }
+    li{
+      height: 10vh;
+      font-size: 30px;
+    }
+  }
+}

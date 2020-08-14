@@ -1,0 +1,3 @@
+node-sass -o css "path"
+
+cd src/main/public
